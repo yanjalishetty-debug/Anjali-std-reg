@@ -10,15 +10,8 @@ function addstudent() {
     let del = document.createElement("button");
     del.innerText = "DEL";
 
-    let edit = document.createElement("button");
-    edit.innerText = "edit";
-
     del.onclick = function(){
         li.remove();
-
-    edit.onclick = function(){
-        li.edit();
-    }
     }
 
     li.appendChild(span);
